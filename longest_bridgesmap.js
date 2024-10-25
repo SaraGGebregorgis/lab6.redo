@@ -1,9 +1,9 @@
 let metroAreaCenterCoordinates = [39.8283, -98.5795]
-let zoomlevel = 4 //1 = whole world and 20 will be city blocks
+let zoomlevel = 4 //1 = whole world and 20 will be city blocks 
 
 let map = L.map('usbridges-map').setView(metroAreaCenterCoordinates, zoomlevel)
 let icon = L.icon({
-    iconUrl: 'marker.png',
+    iconUrl: 'markerr.png',
     iconSize: [50,50],
     iconAnchor: [25,25]
 })

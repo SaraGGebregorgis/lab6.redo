@@ -7,9 +7,9 @@ input.disabled = true
 
 //drawing the image - create an image and set the source
 //add callback to know when the image is loaded and ready
-//so can draw it to the canvas and enable the input
+//so can draw it to the canvas and enable the input 
 let image = new Image()
-image.src = 'meow.jpg'
+image.src = 'meoww.jpg'
 
 image.addEventListener('load', function() {
     context.drawImage(image, 0, 0)

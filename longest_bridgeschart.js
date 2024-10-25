@@ -6,7 +6,7 @@ const bridges = [
     { name: "Tacoma Narrows Bridge", city_state: "Tacoma and Kitsap, WA", span_meters: 853.44, coordinates: [47.2690, -122.5517] }
 ];
 
-// Leaflet map setup
+// Leaflet map setup 
 let metroAreaCenterCoordinates = [39.8283, -98.5795];
 let zoomlevel = 4;
 let map = L.map('usbridges-map').setView(metroAreaCenterCoordinates, zoomlevel);

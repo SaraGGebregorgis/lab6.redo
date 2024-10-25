@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map)
 
-//there is two ways to to it 
+//there is two ways to to it m
 
 //copy and paste this object in an array about the info of what I want to be marked
 campuses =  [

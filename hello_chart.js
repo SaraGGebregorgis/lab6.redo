@@ -13,7 +13,7 @@ let chart = new Chart(context, {//how we create a chart here is where you put th
     },
     options: {
         scales: {
-            yAxes: [ { //about how the y axes is going to be
+            yAxes: [ { //about  how the y axes is going to be
                 ticks: {
                     beginAtZero: true
                 }

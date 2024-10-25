@@ -6,7 +6,7 @@ let addExpenseButton = document.querySelector('#add-expense')
 /* Get chart canvas and contex  */
 let chartCanvas = document.querySelector('#expenses-doughnut-chart')
 let ctx = chartCanvas.getContext('2d')
-//refere to char obj
+//refere to char obje
 
 // TODO create chart object 
 let expenseChart = new Chart(ctx, {
