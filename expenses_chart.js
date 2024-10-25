@@ -15,7 +15,7 @@ let expenseChart = new Chart(ctx, {
         datasets: [ 
             {
                 data:[],
-                backgroundColor: [] //empty array since no data has been entered
+                backgroundColor: [] //empty  array since no data has been entered
             }
         ],
         labels: [] // be careful bec of the structure

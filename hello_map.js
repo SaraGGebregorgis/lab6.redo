@@ -27,7 +27,7 @@ campuses.forEach(function(collegeCampus) {
 })
 
 
-//this is the another method made more sense for me!
+//this is the another method made more sense for me
 // let mctcCoordinates = [44.9724, -93.2844]
 // let mctcMarker = L.marker(mctcCoordinates)
 // .bindPopup('Minneaplis College<br><a href="https://minneapolis.edu">Website</a>')

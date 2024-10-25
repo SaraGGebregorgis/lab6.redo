@@ -58,4 +58,4 @@ let bridgeChart = new Chart(ctx, {
             }
         }
     }
-});
+})

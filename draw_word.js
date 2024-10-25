@@ -9,14 +9,14 @@ input.disabled = true
 //add callback to know when the image is loaded and ready
 //so can draw it to the canvas and enable the input 
 let image = new Image()
-image.src = 'meoww.jpg'
+image.src = 'meow.jpg'
 
 image.addEventListener('load', function() {
     context.drawImage(image, 0, 0)
     input.disabled = false
 })
 
-//add event listener to input - will fire if the the text is changed
+//add event listener to input - will fire  if the the text is changed
 input.addEventListener('input', function() {
     //read the data typed in the input
     // 'this' is the html element this event listener function
